@@ -20,9 +20,7 @@ console.log('getFullName output:');
 console.log(getFullName(new Person("Elle", "Woods"))); // Elle Woods
 
 // Convert addFive into a one-liner fat-arrow function with implicit return
-function addFive(num) {
-  return num + 5;
-}
+const addFive = num => num + 5;
 
 console.log('addFive output:');
 console.log(addFive(3)); // 8
