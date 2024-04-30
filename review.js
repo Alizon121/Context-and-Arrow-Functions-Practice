@@ -7,9 +7,7 @@ console.log('restSum output:');
 console.log(restSum(1, 2, 3)); // 6
 
 // Convert getFullName into a one-liner fat-arrow function with implicit return
-const getFullName = (person) {
-  person.firstName + " " + person.lastName;
-};
+const getFullName = person => person.firstName + " " + person.lastName;
 
 class Person {
   constructor(firstName, lastName) {
